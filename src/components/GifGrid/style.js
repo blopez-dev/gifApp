@@ -14,3 +14,11 @@ export const Searcher = styled.div`
       box-shadow: inset 4px 4px 15px #ededed;
     }
 `;
+
+export const GridResults = styled.div`
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+
+`;

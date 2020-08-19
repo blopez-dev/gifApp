@@ -9,9 +9,6 @@ export const GifExpert = () => {
 
   const [categories, setCategories] = useState(['One Punch']);
 
-  // const handleAdd = () => {
-  //  setCategories(categories => [...categories]);
-  // };
 
   return(
    <>

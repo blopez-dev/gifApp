@@ -14,3 +14,12 @@ export const Searcher = styled.div`
       box-shadow: inset 4px 4px 15px #ededed;
     }
 `;
+
+export const Title = styled.div`
+font-family: 'Open Sans', sans-serif;
+  font-size:20px;
+  margin:8px 0px;
+  font-weight: bold;
+  color:#343434;
+
+`;

@@ -7,9 +7,10 @@
   "author": "pjgl.frontend@gmail.com",
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "webpack-dev-server --config webpack.config.js",
+    "start": "webpack --mode=development",
+    "dev-server": "webpack-dev-server",
     "test": "react-scripts test",
-    "build": "webpack --config webpack.config.js --mode production"
+    "build": "webpack --mode=production"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -41,9 +42,12 @@
     "@testing-library/jest-dom": "^5.11.2",
     "@testing-library/react": "^10.4.8",
     "@testing-library/user-event": "^12.1.1",
+    "animate.css": "^4.1.0",
     "babel-cli": "^6.26.0",
     "babel-polyfill": "^6.26.0",
+    "http-server": "^0.12.3",
     "react": "^16.13.1",
+    "react-animation": "^1.2.2",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
     "styled-components": "^5.1.1",
